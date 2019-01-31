@@ -30,14 +30,12 @@ class XBackendBase extends Controller
         }
 
         //从初始化的内容里面取的userid,若存在则证明有登录
-        $this->_backendUserId = getUid();
+        $this->_backendUserId = parent::_sessionGet('uid');
+        $this->_backendUserName = parent::_sessionGet('uname');
+        $this->_backendGroupId = parent::_sessionGet('_backendGroupId');
 
         /* 检测判断是否登陆,否则跳到login页面 */
         empty($this->_backendUserId) && $this->redirect(array('public/login'));
-
-        $this->_backendUserName = getUname();
-        
-        $this->_backendGroupId = parent::_sessionGet('_backendGroupId');
         empty($this->_backendGroupId) && $this->redirect(array('public/login'));
         
         $this->_backendGroupName = parent::_sessionGet('_backendGroupName');

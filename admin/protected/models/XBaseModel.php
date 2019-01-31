@@ -11,7 +11,7 @@ class XBaseModel extends CActiveRecord
      */
     public function validatePassword ($password)
     {
-        return $this->hashPassword($password) === $this->password;
+        return $this->hashPassword($this->password) === $password;
     }
 
     /**

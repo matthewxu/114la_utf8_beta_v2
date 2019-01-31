@@ -2,16 +2,12 @@
 //error_reporting(E_ALL);
 error_reporting(E_ERROR); 
 //网站url
-$http_host = $_SERVER['HTTP_HOST'];
-$dt_root = $_SERVER['DOCUMENT_ROOT'];
-$st_filename = $_SERVER['SCRIPT_FILENAME'];
+//$http_host = $_SERVER['HTTP_HOST'];
+$http_host = isset($_SERVER['HTTP_X_FORWARDED_HOST']) ? $_SERVER['HTTP_X_FORWARDED_HOST'] : (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '');
 
-if (FALSE !== strpos(strtolower($_SERVER['SERVER_SOFTWARE']), 'iis'))
-{
-    $http_host = str_replace('\\', '/', $http_host);
-    $dt_root = str_replace('\\', '/', $dt_root);
-    $st_filename = str_replace('\\', '/', $st_filename);
-}  
+$http_host = str_replace('\\', '/', $http_host);
+$dt_root = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']);
+$st_filename = str_replace('\\', '/', $_SERVER['SCRIPT_FILENAME']);
 
 $sst_filename = dirname(dirname($st_filename));
 
