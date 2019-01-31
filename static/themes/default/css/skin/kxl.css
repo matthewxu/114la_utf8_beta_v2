@@ -1,0 +1,11 @@
+@charset "gb2312";
+#wrap{ background:#f6f6f6;}
+/*头部背景*/
+#top-outerbg{background:url( "./../../images/theme/kxl_bg.jpg" ) top center #f6f6f6 no-repeat;height:1000px;  }
+#top-innerbg{  }
+/*底部背景*/
+#bottom-outerbg{}
+/*LOGO*/
+.header .logo {
+	background-image: url(../../images/logo.png);
+}

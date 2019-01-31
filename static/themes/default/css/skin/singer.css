@@ -1,0 +1,17 @@
+@charset "gb2312";
+#wrap{ background:#efefef;}
+#top-outerbg{ height:640px;background:url( "./../../images/theme/singger.jpg" ) top center no-repeat  #efefef;height:640px;  }
+#top-innerbg{  }
+
+#skin_singer_btn{ background: url(" ./../../images/theme/bg.png ") -100px -20px  no-repeat;position: absolute;top:329px;left:-227px;width:186px;height: 56px; 
+	border-radius:15px;
+}
+.kpWrap #skin_singer_btn{
+	left: -197px;
+}
+#skin_singer_btn:hover{  background-position: 190px -20px; 
+-moz-transition: all 0.5s ease-out;
+-webkit-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+}

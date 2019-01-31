@@ -1,0 +1,11 @@
+@charset "gb2312";
+#wrap{ background:#fbfbfb;}
+/*头部背景*/
+#top-outerbg{background:url( "./../../images/theme/summer_bg.jpg" ) top center #fbfbfb no-repeat;height:1000px;  }
+#top-innerbg{  }
+/*底部背景*/
+#bottom-outerbg{}
+/*LOGO*/
+.header .logo {
+	
+}

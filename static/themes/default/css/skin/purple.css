@@ -1,0 +1,35 @@
+@charset "gb2312";
+#wrap,.topbar .sets .sethome,.header .notice,.m-search,.m-search-tab .active,.m-search-tab .active116{ background-image:url(../../images/skin/purple_spirit.png);}
+#wrap{ background-position:0 -207px; background-repeat:repeat-x;}
+.m-search-tab .active{ background-position:0 -23px; background-repeat:no-repeat; }
+.m-search-tab .active116{ background-position:0 -48px; background-repeat:no-repeat;}
+.topbar .sets .sethome{ background-position:0 -84px; background-repeat:no-repeat;}
+.header .notice{ background-position:0 3px; background-repeat:no-repeat;}
+.m-search{  border-color:#e1cefc; background-position:0 -128px;background-repeat:repeat-x; }
+.header .logo{background-image:url(../../images/logo.png);}
+.topbar{ border-color:#e0ccff;}
+.col-hotKeys .hotKeys a,.box-prlInq .tit,.box-prlInq .more,.usage-tab .active,.col-coolsite .tit,.usage-con .tbox .ipt-text,.fmSite-tab li,.box-tuan a,.sortSite .tit a,.recomSite .tit a{ color:#6233a2;}
+.topbar .setColor .blue{ background-position:-1px -568px;}
+.skin-list .default-setColor .blue{ background-position:0px -590px;}
+.skin-list .default-setColor .purple{ background-position:-76px -634px;}
+.col-usage,.col-coolsite,.col,.fmSite-tab li,dl.col-row01,ul.col-row02,.comBox,#botNavi,.sedulist{ border-color:#c9acf1;}
+.starBar{border-color:#c0a7e3;}
+.starBar li.hover{ background-color:#efe4fe;}
+.fmSite-tab li span,.box-tuan a{ background-color:#efe7fb;}
+.sortSite{border-color:#efe4ff; background-color:#fcfaff;}
+.col-recomSite{background-color:#fcfaff;}
+.usage-tab li{ background-color:#efe4fe;}
+.usage-tab .active{background-color:#a57ce9;color:#fff;}
+ul.colnavi{background:#F6EFFF;}
+.sedulist dl dd ul li em.b{background:#A57CE9;}
+ul.colnavi li a,#botNavi ul li a.hex{color:#A57CE9;}
+ul.colTitle li.active{border-top-color:#c9acf1;}
+.topbar li.drop ol li a:hover{background:#c9acf1;}
+ul.col-row02 li,
+#botNavi ul li span,
+.morCrt a,
+ul.colTitle,
+#gotop, #feedback,
+span#mcLft, span#mcRgt{background-image:url(../../images/iconall-purple.png);}
+#ldMore{background-position:-176px 0;}
+#ldMore.my{background-position:-198px 0;}

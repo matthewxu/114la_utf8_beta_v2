@@ -1,0 +1,15 @@
+@charset "gb2312";
+.topbar .setColor .blue{ background-position:-1px -612px;}
+.skin-list  .default-setColor .blue{ background-position:0px -634px;}
+#wrap{ background:#f9f9f9; border-top:0; position:static;}
+#top-innerbg{ background:url(../../images/theme/2012shuang11topinnerbg.jpg) center top no-repeat;}
+#top-outerbg,#top-innerbg{height:900px;}
+#bottom-innerbg {height:0;}
+.header{background:#fff;}
+.topbar{padding-top:40px;border-bottom:0;}
+.topbar .top-bd{border:1px solid #d4ebfb; border-top:0;  background:#fefefe; width:958px;}
+.topbar .wel{padding-left:10px;}
+.header .logo{margin-left:5px;}
+.content{padding-top:11px;background:#fff;margin:0;}
+.topbar .sets{padding-right:10px;}
+#j_close-shuang11{background:url(../../images/theme/shuang11_close.png) 0 0 no-repeat; cursor:pointer; height:24px; overflow:hidden; position:absolute; top:12px;right:0; width:53px;}

@@ -1,0 +1,15 @@
+@charset "gb2312";
+body{background:#3683c5;}
+#classicsWrap{ background:#fff; margin:0 auto;width:1018px; overflow:hidden;}
+#wrap,.topbar{ margin:0 10px;}
+.topbar{  border-left:1px solid #a2cbf1; border-right:1px solid #a2cbf1; padding:0 0 0 10px;}
+.topbar .top-bd{ width:998px;}
+.header{border-top:0; height:78px; }
+.header .header-bd{ border-top:1px solid #fff;}
+.header .box-weather{margin:6px 0 0 12px;}
+
+.m-search{ margin-top:10px;}
+.box-mySetting{right:-12px;}
+.kpWrap{ width:1080px!important;}
+.kpWrap .topbar .top-bd{width:1038px!important;}
+.kpWrap .header{ width:1058px!important;}

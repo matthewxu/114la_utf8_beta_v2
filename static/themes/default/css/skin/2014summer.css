@@ -1,0 +1,13 @@
+@charset "gb2312";
+#wrap{ background:#efefef; }
+#top-outerbg{ height:640px;background:url( "./../../images/theme/2014summer.jpg" ) #efefef center ;height:1040px;  }
+#top-innerbg{  }
+
+#skin_summer_btn{ background: url(" ./../../images/theme/2014summerLink.png ") 0px 0px  no-repeat;position: absolute;top:440px;left:-229px;width:106px;height: 453px; 
+	border-radius:15px; } 
+ 
+ .football{ z-index:10000; }
+
+.header .logo {
+	background-image: url(../../images/logo.png);
+}

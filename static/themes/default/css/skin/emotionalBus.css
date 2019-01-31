@@ -1,0 +1,6 @@
+@charset "gb2312";
+#wrap{ background:#f9f9f9;}
+#top-outerbg{ background:url(../../images/theme/emotionalBus_x.png) repeat-x #f9f9f9;}
+#top-innerbg{ background:url(../../images/theme/emotionalBus.jpg) center top no-repeat;}
+.topbar .setColor .blue{ background-position:-1px -568px;}
+.skin-list  .default-setColor .blue{ background-position:0px -590px;}

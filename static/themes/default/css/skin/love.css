@@ -1,0 +1,67 @@
+@charset "gb2312";
+#wrap{ background:#fde2ea;}
+/*头部背景*/
+#top-outerbg{background:url( "./../../images/theme/love_bg.jpg?v2" ) top center #fde2ea no-repeat;height:900px;  }
+#top-innerbg{  }
+/*底部背景*/
+#bottom-outerbg{ background:url( "./../../images/theme/love_bottom.jpg" ) bottom center #fde2ea no-repeat; }
+
+/*边框颜色*/
+.col-usage, .col-coolsite, .col, .fmSite-tab li, dl, ul.col-row02, .comBox, #botNavi, .sedulist,.m-search,.botNavi ,.ecRow, .btmContent,dl.col-row01{
+	border-color: #fc91a8;
+}
+.btmContent .tabHander li,ul.colTitle li.active,ul.colTitle li,.btmContent .tabHander li{
+	border-top-color: #fc91a8;
+}
+#ldMore{
+	color:#fc91a8;
+}
+/* 背景颜色 底部电商 */
+.ecRow .ecBottomLine,.btmContent .tabHander,.starCol .txt1Row2 a{ background:#fa7793; }
+
+
+/*字体颜色*/
+.tilTxt,.botNavi .botBlue,.ecRow .ecTilTxt .ecTilSpan,.col-hotKeys .hotKeys a, .box-prlInq .tit, .box-prlInq .more, .usage-tab .active, .col-coolsite .tit, .fmSite-tab li, .box-tuan a, .sortSite .tit a, .recomSite .tit a ,ul.colnavi li a, #botNavi ul li a.hex,ul.col-row02 span,ul.colnavi li span,.header .faceIcon,.ecRow .ecTilTxt .ecTilIcon,.topbar .wel ul li.mcol .homeIcon{
+	color: #fa7793;
+}
+ul.col-row02 span,ul.colnavi li span,.header .faceIcon,.topbar .wel ul li.mcol .homeIcon{
+	color: #df84a7;
+}
+/*搜索框选中及头部*/
+.m-search-tab .active,.s-hot .hot-til,.s-hot .hot-con .bot-nub, .col-hotKeys .bot-nub,.s-hot .hot-clock{
+	background:#fa7793;
+}
+
+/*星座链接*/
+.starRow2 .detail,.starCol .star_chose a:hover{ color:#fa7793; }
+
+.s-hot .hot-con{ border-color:#fa7793; }
+
+/*搜索框 新闻热点*/
+.m-search,.s-hot .hot-con .cur{ background:#fde9ee; }
+.s-hot .hot-con .bot-nub{background:#fa7793;}
+
+
+/* 图标 */
+ul.col-row02 li, #botNavi ul li span, .morCrt a, ul.colTitle, span#mcLft, span#mcRgt,ul.colnavi li span ,.scroCtr a, .tilTxt .tilIcon, .btmc_con .btmc_la, .btmc_con .btmc_ra, .ecRow .ecTilTxt .ecTilIcon
+,ul.col-row02 li, #botNavi ul li span, .morCrt a, ul.colTitle, span#mcLft, span#mcRgt,.s-hot .hot-clock,.topbar .wel ul li.mcol a.home, .header .notice,#ldMore,
+.footer .copyright .appleDownload, .footer .copyright .azDownload{
+	
+}
+
+.header .notice {
+	background-position: -236px -69px;
+}
+.topbar .wel ul li.mcol a.home{
+	background-position: -232px -34px;
+}
+#ldMore{
+	background-position: -232px 0px;
+}
+#ldMore.my{
+	background-position: -253px 0px;
+}
+/*LOGO*/
+.header .logo {
+	background-image: url(../../images/logo.png);
+}

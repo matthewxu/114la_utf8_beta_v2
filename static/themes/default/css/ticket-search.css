@@ -1,0 +1,124 @@
+@charset "gb2312";
+/**S 默认重置**/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li, 
+pre, 
+form, fieldset, legend, button, input, textarea,
+th, td{
+    margin: 0;
+    padding: 0;
+}
+body,
+button, input, select, textarea{
+    font: 12px/1.5 Tahoma,Geneva, \5b8b\4f53, sans-serif;
+	-webkit-text-size-adjust: none;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var,i { font-style: normal; }
+code, kbd, pre, samp,del{ font-family: courier new, courier, monospace; } 
+small { font-size: 12px;} 
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+sup { vertical-align: text-top; } 
+sub { vertical-align: text-bottom; }
+legend { color: #000; }
+fieldset, img,input,button,textarea,select{ border:0;outline:none;-webkit-appearance: none;border-radius: 0;} 
+textarea{ resize:none}
+button, input, select, textarea { font-size: 100%; }
+table { border-collapse: collapse; border-spacing: 0; }
+/**E 默认重置**/
+
+/*** 清除浮动 ***/
+.cf:after { content:'\0020';clear:both; display:block; height:0;}
+.cf { *zoom:1;}
+
+/**  浮动 **/
+.fl{ display:inline; float:left;}
+.fr{ display:inline; float:right;}
+
+/** 颜色 **/
+.red { color:#f00;}
+.green{ color:#178517;}
+.blue { color:#00F;}
+.black { color:#000;}
+
+a{ color:#000;}
+a:hover{ color:#f00; text-decoration:underline;}
+
+html{ zoom:expression(function(ele) {ele.style.zoom = "1";document.execCommand("BackgroundImageCache", false, true);}(this));}
+.bg{background:url(../images/spirit.png) no-repeat;}
+.rep{ background:url(../images/rep.png) repeat-x;}
+.col{ background:#fff; border:1px solid #a4d4ff;}
+.box-search-submit{ background-position:0 -180px;margin-left: 5px;overflow: hidden;width: 96px;}
+.box-search-submit .r{background-position:-2px -235px; height:33px; width:3px; }
+.box-search-submit .l{background-position:0 -235px; height:33px; width:2px;}
+.box-search-submit .searchSubmit{background:transparent;cursor: pointer;font-family: SimSun; font-size:14px; height: 33px;line-height: 33px;width: 91px;}
+.m-search-ticket{ padding-top:1px}
+.m-search-ticket .pic{background:url(../images/ctrip.png) no-repeat; height:24px; margin:2px 0 0 35px; width:76px; }
+.box-ticket-citys{ background:#fff; margin-left:9px; position:relative; width:332px; z-index:200;}
+.box-citys{ border:1px solid #c3c3c3;height:22px; padding:4px; width:322px;}
+.box-citys .box-citys-input{ border:1px solid #c3c3c3; height:20px; position:relative; width:145px;}
+.box-citys .box-citys-input .city{ height:20px; line-height:20px; padding-left:5px; width:120px;}
+.box-citys .to{ margin:3px 8px;}
+.box-citys .i-pd{ background:url(../images/i_citys.png) no-repeat; cursor:pointer; position:absolute; top:3px; right:3px; height:14px; width:12px;}
+.box-dropList{ background:#fff; border:1px solid #c3c3c3; border-top:0; position:absolute; top:32px;_top:34px; left:0; padding:0 10px; width:310px; z-index:201;}
+.box-dropList .title{border-bottom:1px dashed #bbbbbb;color:#777777; font-size:12px; font-weight:normal; height:24px; line-height:24px; margin:3px 3px 0 0; position:relative;}
+.box-dropList .i-close{background:url(../images/close.png) no-repeat;cursor:pointer; height:10px; position:absolute;top:6px;right:57px; width:10px;}
+.box-dropList .citys-tab{border-bottom:1px solid #63aae9; height:16px; line-height:17px; margin-top:10px; }
+.box-dropList .citys-tab li{ color:#777777; cursor:pointer; display:inline;float:left;  text-align:center; width:60px;}
+.box-dropList .citys-tab .active{ background:#63aae9; color:#fff;}
+.box-dropList .citys-con{ padding:7px 0 5px 11px;}
+.box-dropList  .citys-con-item{ }
+.box-dropList  .citys-con-item a{ color:#1a72c1; display:inline; float:left; height:22px; line-height:22px;white-space:pre; width:49px;}
+.box-ticket-date{ height:20px; line-height:20px; padding:6px 0; margin-left:20px;}
+.box-ticket-date select{ border:1px solid #abadb3; _vertical-align:middle;}
+.box-ticket-date .rq{padding-right:6px;}
+.m-search-ticket .box-search-submit{margin-left:20px;}
+.m-search-ticket .box-search-submit .searchSubmit{ font-size:12px;}
+.m-search-ticket .hotKeys{ padding-left:32px; margin-top:-2px;}
+.m-search-ticket .hotKeys p{ line-height:18px;}
+.m-search-ticket .hotKeys a{ color:#1A72C1; white-space:pre;} 
+/**E 主搜索框 **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

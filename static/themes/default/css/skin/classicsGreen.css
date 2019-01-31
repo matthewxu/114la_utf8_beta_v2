@@ -1,0 +1,103 @@
+@charset "gb2312";
+body{background:#7fae53;}
+#classicsWrap{ background:#fff; margin:0 auto;width:1018px; overflow:hidden;}
+#wrap,.topbar{ margin:0 10px;}
+#wrap{ border-top:0;background:url(../../images/skin/h_g_reg.png) repeat-x;}
+.m-search-tab .active{ background-position:0 -23px; background-repeat:no-repeat; }
+.m-search-tab .active116{ background-position:0 -48px; background-repeat:no-repeat;}
+.topbar .sets .sethome{ background-position:0 -84px; background-repeat:no-repeat;}
+.header .notice{ background-position:0 3px; background-repeat:no-repeat;}
+.m-search{  border-color:#b7dd4f; background-position:0 -128px;background-repeat:repeat-x;  margin-top:10px;}
+.header{border-top:0; height:78px; width:1000px;}
+.header .header-bd{ border-top:1px solid #fff;}
+.topbar{  border-left:1px solid #a2d175; border-right:1px solid #a2d175; border-bottom-color:#a2d175; padding:0 0 0 10px;}
+.topbar .top-bd{ width:996px;}
+.col-hotKeys .hotKeys a,.box-prlInq .tit,.box-prlInq .more,.usage-tab .active,.col-coolsite .tit,.usage-con .tbox .ipt-text,.fmSite-tab li,.box-tuan a,.sortSite .tit a,.recomSite .tit a{ color:#5c7f01;}
+.topbar .setColor .blue{ background-position:-1px -568px;}
+.skin-list .default-setColor .blue{ background-position:0px -590px;}
+.sideBar,.col-usage,.col-coolsite,.col,.fmSite-tab li,.box-tuan{ border-color:#a2d175;}
+.starBar{border-color:#cee1a2;}
+.starBar li.hover{ background-color:#e5f1cb;}
+.fmSite-tab li span,.box-tuan a{ background-color:#e7f6cb;}
+.sortSite{border-color:#e2f0c4; background-color:#fdfff9;}
+.sideBar{ background-color:#f6faed;}
+.col-recomSite{background-color:#fdfff9;}
+.box-mySetting{right:-12px;}
+.usage-tab li{ background-color:#e5f1cb;}
+.usage-tab .active{background-color:#89c455;color:#fff;}
+.kpWrap{ width:1080px!important;}
+.kpWrap .topbar .top-bd{width:1038px!important;}
+.kpWrap .header{ width:1058px!important;}
+.topbar li.drop ol li a:hover{background:#a2d175;}
+ul.colnavi{background:#F3F9E4;}
+.sedulist dl dd ul li em.b{background:#539815;}
+ul.colnavi li a,#botNavi ul li a.hex{color:#539815;}
+ul.colTitle li.active{border-top-color:#a2d175;}
+
+#ldMore{background-position:-44px 0;}
+#ldMore.my{background-position:-66px 0;}
+
+
+.m-search-tab .active{ background-position:0 -23px; background-repeat:no-repeat; }
+.m-search-tab .active116{ background-position:0 -48px; background-repeat:no-repeat;}
+.topbar .sets .sethome{ background-position:0 -84px; background-repeat:no-repeat;}
+.header .notice{ background-position:0 3px; background-repeat:no-repeat;}
+.m-search{  border-color:#b7dd4f; background-position:0 -128px;background-repeat:repeat-x;background:#f5faea; }
+.header .logo{background-image:url(../../images/logo.png);}
+.col-hotKeys .hotKeys a,.box-prlInq .tit,.box-prlInq .more,.usage-tab .active,.col-coolsite .tit,.fmSite-tab li,.box-tuan a,.sortSite .tit a,.recomSite .tit a{ color:#5c7f01;}
+.topbar .setColor .blue{ background-position:-1px -568px;}
+
+.skin-list .default-setColor .blue{ background-position:0px -590px;}
+.col-usage,.col-coolsite,.col,.fmSite-tab li,dl,ul.col-row02,.comBox,#botNavi,.sedulist{border-color:#a2d175;}
+.starBar{border-color:#cee1a2;}
+.starBar li.hover{ background-color:#e5f1cb;}
+.fmSite-tab li span,.box-tuan a{ background-color:#e7f6cb;}
+.sideBar{ background-color:#f6faed;}
+.col-recomSite{background-color:#fdfff9;}
+.usage-tab li{ background-color:#e5f1cb;}
+.usage-tab .active{background-color:#89c455;color:#fff;}
+ul.colnavi{}
+.sedulist dl dd ul li em.b{background:#539815;}
+ul.colnavi li a,#botNavi ul li a.hex{color:#539815;}
+ul.colTitle li{ border-top: 1px solid #a1d270;  }
+ul.colTitle li.active{border-top-color:#a2d175;}
+.topbar li.drop ol li a:hover{background:#a2d175;}
+#ldMore{background-position:-44px 0;}
+#ldMore.my{background-position:-66px 0;}
+
+
+.s-hot .hot-con .bot-nub, .col-hotKeys .bot-nub{ background:#87c64e; }
+.ecRow .ecBottomLine{ background:#87c64e; }
+.btmContent .tabHander{ background:#87c64e; }
+.starCol .txt1Row2 a{ background:#87c64e; }
+.tilTxt{ color:#4f940a; }  
+.ecRow .ecTilTxt{ }
+.ecRow .ecTilTxt .ecTilSpan{ color:#4f940a; } 
+.topbar .wel ul li.mcol a.home{ background: url(../../images/skin/green_spirit.png) no-repeat  2px -89px; }
+
+.s-hot .hot-til{ background:#87c64e; }
+.s-hot .hot-con{ border: 1px solid #87c64e; }
+.botNavi .botCol2,
+.botNavi .botCol4{ background: #fff; }
+.ecRow,.btmContent{ border: 1px solid #87c64e; }
+.btmContent .tabHander li{ border-top-color: #87c64e;}
+.botNavi{ border-color:#87c64e; }
+.botNavi .botBlue{ color: #4f940a; }
+.starRow2 .detail{ color: #5c7f01; }
+.starCol .star_chose a:hover{ color:#5c7f01;}
+.ecRow .ecTilTxt .ecTilIcon{ background-position:10px -34px; }
+.s-hot .hot-con .cur{ background:#f5faea; }
+
+
+#ldMore{
+	color:#a2d175;
+}
+ul.col-row02 span,ul.colnavi li span,.header .faceIcon,.ecRow .ecTilTxt .ecTilIcon,.topbar .wel ul li.mcol .homeIcon{
+	color: #96d65b;
+}
+.s-hot .hot-clock{
+	background:#87c64e;
+}
+.m-search-tab .active{
+	background: #87c64e;
+}

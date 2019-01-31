@@ -1,0 +1,39 @@
+@charset "gb2312";
+.topbar .top-bd,.container,.header{ width:1060px;}
+.m-search,.col-recomSite{width:1058px;}
+.sortSite li a{width:14.3%;_width:14%;}
+.sedulist dl{margin-right:55px;}
+.main{ width:810px;}
+.sideBar{margin-left:-1060px;}
+#botNavi,.sedulist{width:1038px;}
+#botNavi ul{width:268px;}
+* html #botNavi ul{width:258px;}
+#botNavi ul li{width:258px;}
+* html #botNavi ul li{width:248px;}
+#botNavi ul li a{margin-right:18px;}
+#costom{margin-left:540px;}
+.search-widget .searchWord{width:466px;}
+.search-widget .box-search-input .shadow-x{width:472px;}
+.sug-wrap,#topShow{width:473px;}
+.m-search-tab li{margin-right:16px;}
+.header .calendar{width:140px;}
+.header .box-weather{width:352px;}
+.header .calendar .see{margin-right:10px;}
+.weather li{margin-right:8px;}
+
+/*处理经典版宽屏*/
+.topbar{padding-left:0px;margin:0 auto;border-left:0px;border-right:0px;}
+
+.football{ margin-left: -650px; }
+.gameRow .rowLeft{ padding:0px 10px; }
+.gameRow .rowRight{ padding:0px 10px; }
+.gameRow .rowCenter{ padding:0px 10px; }
+.gameRow .rowCenter .grGameChange{ right: 6px; }
+
+.gameRow .gr-wg-left,
+.gameRow .gr-sg-left{padding: 0px 20px;}
+
+.gameRow .gr-wg-right,
+.gameRow .gr-sg-right{ padding:0px 10px; }
+
+.usInnerWrap{ width:1060px; }
